@@ -17,16 +17,19 @@ This project focuses on building a Convolutional Neural Network (CNN) model to c
 The dataset used is from the **PlantVillage** dataset (hosted on Kaggle), structured in the following format:
 
 Potato/
+
 ├── train/
+
 │ ├── Early_Blight/
+
 │ ├── Late_Blight/
+
 │ └── Healthy/
+
 ├── test/
+
 └── val/
 
-yaml
-Copy
-Edit
 
 - Classes: `Early_Blight`, `Late_Blight`, `Healthy`
 - Format: JPEG/PNG images of potato leaves
@@ -51,20 +54,19 @@ Download: [PlantVillage Dataset - Potato](https://www.kaggle.com/datasets/arjunt
    ```bash
    git clone https://github.com/CodeHive08/potato-disease-classification.git
    cd potato-disease-classification
-Install required packages:
-
+## Install required packages:
 install the key libraries:
 
 pip install tensorflow matplotlib seaborn scikit-learn
 Download and set up the dataset as per the folder structure mentioned above.
 
-🧪 Model Training & Evaluation
+## 🧪 Model Training & Evaluation
 Run the notebook using Jupyter:
 
 jupyter notebook potato-disease-classification-model.ipynb
 Or use Google Colab by uploading the notebook and mounting your dataset folder.
 
-📈 Results
+## 📈 Results
 Training Accuracy: ~95–99%
 
 Validation Accuracy: ~92–96%
@@ -75,22 +77,22 @@ Confusion matrix and classification report are plotted and printed inside the no
 
 
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 Convert to a web app using Flask/Streamlit for real-time prediction
 
 Use data augmentation for better generalization
 
 Deploy model using TensorFlow Lite or ONNX for mobile devices
 
-🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
 
-🙌 Acknowledgements
-PlantVillage Dataset on Kaggle
+## 🙌 Acknowledgements
+-PlantVillage Dataset on Kaggle
 
-TensorFlow and Keras documentation
+-TensorFlow and Keras documentation
 
 GitHub Copilot and ChatGPT for productivity assistance
